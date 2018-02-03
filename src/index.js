@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App'
 
-const title = 'React sample with .js file extension';
-ReactDOM.render(<div><h1>{title}</h1></div>,
+ReactDOM.render(<App />,
   document.getElementById('app')
 );
